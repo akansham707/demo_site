@@ -1,5 +1,8 @@
 <!-- component -->
 <!-- component -->
+<%= link_to 'Posts', posts_path %>
+<%= turbo_stream_from :posts %>
+<div id="posts"></div>
 <div class="max-w-[720px] mx-auto">
     <div class="block mb-4 mx-auto border-b border-slate-300 pb-2 max-w-[360px]">
         <a 
